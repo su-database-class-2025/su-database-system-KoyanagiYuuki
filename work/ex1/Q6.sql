@@ -1,0 +1,2 @@
+SELECT count(film_id) FROM film
+    WHERE rating = 'PG' OR rating = 'G';
